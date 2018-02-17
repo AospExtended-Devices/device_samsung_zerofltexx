@@ -2,10 +2,10 @@
 $(call inherit-product, device/samsung/zerofltexx/full_zerofltexx.mk)
 
 # Enhanced NFC
-# $(call inherit-product, vendor/lineage/config/nfc_enhanced.mk)
+#$(call inherit-product, vendor/aex/config/nfc_enhanced.mk)
 
-# Inherit some common LineageOS stuff.
-$(call inherit-product, vendor/lineage/config/common_full_phone.mk)
+# Inherit some common AEX stuff.
+$(call inherit-product, vendor/aosp/common.mk)
 
 PRODUCT_BUILD_PROP_OVERRIDES += \
     PRODUCT_NAME="zerofltexx" \
