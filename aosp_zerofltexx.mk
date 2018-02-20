@@ -13,3 +13,7 @@ PRODUCT_BUILD_PROP_OVERRIDES += \
 
 PRODUCT_NAME := aosp_zerofltexx
 PRODUCT_DEVICE := zerofltexx
+
+PRODUCT_PACKAGES += \
+    Camera2 \
+    Snap
